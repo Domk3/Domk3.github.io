@@ -2,28 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Myriad Pro";
-}
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
+    font-family: "Myriad Pro", sans-serif;
 }
 
 html,body{
@@ -45,9 +24,8 @@ body{
 }
 
 .brand-title{
-    font-family: "Baskerville Old Face";
     font-weight: bolder;
-    font-size: 3rem;
+    font-size: 50px;
     margin: .5rem;
 }
 
@@ -66,10 +44,10 @@ body{
 }
 
 .navbar-links li a{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     color: #F0EBD8;
     text-decoration: none;
-    padding: 1rem;
+    padding: 1.5rem;
     display: block;
 }
 
@@ -102,8 +80,13 @@ body{
 }
 
 a{
-    font-size: 1.2rem;
+    font-size: 24px;
     max-width: 600px;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 40px;
 }
 
 .grid{
@@ -179,8 +162,9 @@ footer{
     .Concerts-text {order: 5}
     .Concerts-photo {order: 6}
     .Places-text {order: 7}
-    .Places-photo {order: 8;}
+    .Places-photo {order: 8}
     a{font-size: 1rem}
+    h1{font-size: 2rem}
     .About-photo, .People-photo{width: 250px;}
     .Concerts-photo, .Places-photo{width: 350px;}
 
